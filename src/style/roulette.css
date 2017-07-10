@@ -1,0 +1,32 @@
+.roulette__wrap {
+  width: 12em;
+  box-shadow: .2em .2em 1em #888;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.roulette__wheel {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.roulette__wheel li {
+  border: 1px solid #888;
+  text-align: center;
+  color: #fff;
+  padding: .5em;
+  min-width: 3em;
+}
+
+.roulette__wheel [data-roulette-color=red] {
+  background-color: #f00;
+}
+.roulette__wheel [data-roulette-color=black] {
+  background-color: #000;
+}
+.roulette__wheel [data-roulette-zero] {
+  background-color: #080;
+}

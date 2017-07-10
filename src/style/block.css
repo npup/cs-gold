@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Counter-Strike Regular";
+  src: url("./fonts/cs_regular.ttf");
+}
+html,
+html * {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Courier, Sans-serif;
+  background-color: #111;
+}
+
+.header {
+  background-color: #222;
+  padding: .5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  color: #111;
+  font-size: 5em;
+  font-family: "Counter-Strike Regular";
+  position: relative;
+  top: .1em;
+}
+.logo__pt1,
+.logo__pt2 {
+  line-height: 1;
+}
+.logo__pt1 {
+  color: grey;
+}
+.logo__pt2 {
+  color: gold;
+}
+.logo__man {
+  font-size: .9em;
+  padding: 0 .1em;
+}
+
+.modes {
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex: 1;
+}
+.modes li {
+  list-style-type: none;
+  text-align: center;
+  white-space: nowrap;
+  margin: 0 .5em;
+  height: 3em;
+}
+
+.modes a {
+  color: #888;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+}
+
+.modes li:hover {
+  color: gold;
+  border-bottom: .1em solid gold;
+}
+
+.main {
+  padding: 2em;
+  color: #888;
+  line-height: 1.4;
+  text-align: justify;
+}
